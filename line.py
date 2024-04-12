@@ -18,4 +18,5 @@ def line():
     print(f"\t P1 ({x1} ; {y1})")
     print(f"\t P2 ({x2} ; {y2})")
     distance = float(math.sqrt((x2 - x1)**2 + (y2 - y1)**2))
+    print("\n")
     print(f"La distancia entre ellos es: {distance}")
