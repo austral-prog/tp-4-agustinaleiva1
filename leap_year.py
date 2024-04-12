@@ -1,5 +1,4 @@
 def leap_year():
-    print("TO DO")
     year = input("ingrese un año:")
     if year % 100 == 0:
         if year % 400 == 0:
