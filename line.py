@@ -6,8 +6,8 @@ def line():
     x2 = float(input("Ingrese el coeficiente X2:"))
     y1 = float(a * x1 + b)
     y2 = float(a * x2 + b) 
-    p1 = x1 , y1
-    p2 = x2 , y2
+    p1 = [x1 , y1]
+    p2 = [x2 , y2]
     distance = float(math.dist(p1,p2))
     print(f"El coeficiente A de su ecuación de la recta es: {a}")
     print(f"El coeficiente B de su ecuación de la recta es: {b}")
