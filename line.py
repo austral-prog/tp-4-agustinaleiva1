@@ -12,10 +12,10 @@ def line():
     print("Para la siguient ecuación:")
     print(f"\t Y = {a}X + {b}")
     print("\n")
-    y1 = a * x1 + b
-    y2 = a * x2 + b 
+    y1 = float(a * x1 + b)
+    y2 = float(a * x2 + b) 
     print("Dados los siguientes puntos:")
     print(f"\t P1 ({x1} ; {y1})")
     print(f"\t P2 ({x2} ; {y2})")
-    distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+    distance = float(math.sqrt((x2 - x1)**2 + (y2 - y1)**2))
     print(f"La distancia entre ellos es: {distance}")
